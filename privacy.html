@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lifelog 개인정보처리방침</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>개인정보처리방침</h1>
+<p class="sub"><a href="./">lifelog</a> · 2026-11-18 시행</p>
+
+<p>lifelog는 만든 사람 한 명이 자기 기록을 정리하려고 쓰는 개인용 앱입니다. 다른 사람의 Google 계정에는 접근하지 않습니다.</p>
+
+<h2>가져오는 정보</h2>
+<p>Google 계정 접근은 <code>https://www.googleapis.com/auth/calendar.readonly</code> 범위로 동의를 받아 읽기만 합니다.</p>
+<ul>
+  <li>캘린더 목록: 캘린더 id, 이름, 기본 캘린더인지 여부</li>
+  <li>사용자가 고른 캘린더의 일정: 제목, 시작·끝 시각, 종일 여부, 장소, 설명, 참석자 이름(이름이 없으면 이메일), 내 참석 응답, 일정 유형</li>
+</ul>
+<p>일정을 만들거나 고치거나 지우지 않습니다.</p>
+
+<h2>쓰는 곳</h2>
+<ul>
+  <li>가져온 일정은 제 하루 기록의 타임라인에 보이고, 하루를 정리하는 데 쓰입니다.</li>
+  <li>하루 정리와 질문 답변을 만들 때, 일정 내용이 다른 기록과 함께 AI 서비스(Anthropic Claude)에 보내질 수 있습니다. 그 결과는 제 기록에만 남습니다.</li>
+  <li>광고, 판매, 다른 서비스와의 공유에는 쓰지 않습니다.</li>
+</ul>
+
+<h2>보관</h2>
+<ul>
+  <li>일정 기록은 제 PC와, 백업용인 제 비공개 GitHub 저장소에 보관합니다.</li>
+  <li>Google 로그인 정보(refresh token)는 제 PC의 설정 파일에만 저장하고, 백업이나 외부로 보내지 않습니다. 접근 토큰은 쓸 때마다 새로 받고 저장하지 않습니다.</li>
+</ul>
+
+<h2>접근 해제와 삭제</h2>
+<p><a href="https://myaccount.google.com/permissions">Google 계정의 서드파티 연결 페이지</a>에서 언제든 lifelog의 접근을 해제할 수 있습니다. 해제하면 더는 일정을 가져오지 않습니다. 이미 가져온 기록은 제 PC와 비공개 저장소에서 제가 직접 지웁니다.</p>
+
+<h2>문의</h2>
+<p><a href="https://github.com/asomegs">github.com/asomegs</a></p>
+</main>
+</body>
+</html>
